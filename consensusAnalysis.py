@@ -5,6 +5,7 @@ import nltk.classify.util
 import csv
 import re
 
+#github.com/stanfordnlp/CoreNLP/blob/master/data/edu/stanford/nlp/patterns/surface/stopwords.txt
 stopwords = open('StopWords.txt')
 stopwords = stopwords.read().split('\n')
 traindataset = "traindataset.csv"
